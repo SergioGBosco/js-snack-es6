@@ -144,4 +144,13 @@ const team = [
     fouls_drawn: 0,
   },
 ];
+
+
+//ciclo ogni elemento dell'array pèer andara ad inserire nelle 2 variabili dei numeri generati casualmente 
+
+for (let i = 0; i < team.length; i++) {
+  team[i].points = Math.floor(Math.random() * 100 + 1);
+  team[i].fouls_drawn = Math.floor(Math.random() * 100 + 1);
+}
+
 console.log(team)
