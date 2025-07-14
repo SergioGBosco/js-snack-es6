@@ -154,3 +154,34 @@ for (let i = 0; i < team.length; i++) {
 }
 
 console.log(team)
+
+//voglio mandare in console la scritta della squadra vincitrice 
+
+let teamwin = team[0]
+
+for (let i = 0; i < team.length; i++) {
+  if (team[i].points > teamwin.points) {
+    teamwin = team[i];
+  }
+}
+console.log(`La squadra vincitrice del campionato è ${teamwin.society}`)
+
+//creo una variabile vuota per poi successivamente metterle all'interno gli oggetti con due delle 3 proprietà
+
+const team_foulsdrawn = [];
+
+for (let i = 0; i < team.length; i++) {
+
+
+  //creo un nuovo oggetto andando a mettere solo le prprietà che mi servono 
+
+  let team_fouls = {
+    society: team[i].society,
+    fouls_drawn: team[i].fouls_drawn,
+  }
+
+
+  team_foulsdrawn.push(team_fouls)
+}
+console.log(team_foulsdrawn)
+
