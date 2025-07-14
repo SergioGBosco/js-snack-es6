@@ -37,3 +37,111 @@ for (let i = 0; i < racingbike.length; i++) {
 };
 console.log(lightbike)
 
+
+//esercizio 2
+
+//Creo un array di squadre da calcio 
+
+const team = [
+  {
+    society: `Atalanta`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Bologna`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Cagliari`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Como`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Cremonese`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Fiorentina`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Genoa`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Hellas Verona`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Inter`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Juventus`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Lazio`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Lecce`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Milan`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Napoli`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Parma`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Roma-`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Sassuolo`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Torino`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Udinese`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+  {
+    society: `Verona`,
+    points: Math.floor(Math.random() * 100 + 1),
+    fouls_drawn: Math.floor(Math.random() * 100 + 1),
+  },
+];
+console.log(team)

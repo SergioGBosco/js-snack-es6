@@ -17,3 +17,9 @@ Esercizio 1
 Cerco bici da corsa nel web
 creo un array di oggetti che descrivano le bici da corsa trovate in penso e marca/modello
 trovo nell'array la bici da corsa che pèesa di meno
+
+Esercizio 2
+Creo un Array formato da oggetti di squadre da calcio
+per ogni oggetto definisco nome punti fatti e falli subiti
+Creo solamente il nome delle squadre da calcio
+falli subiti e punti fatti li genero casualemente
